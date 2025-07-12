@@ -5,9 +5,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IslamosPhere - Online Courses</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Jost:ital,wght@0,100..900;1,100..900&display=swap">
+
   <!-- Css Files & Libraries -->
   <link rel="stylesheet" href="assets/libs/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/libs/bootstrap-icons/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/libs/flags/css/flag-icons.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -15,7 +23,68 @@
 
   <div id="app">
     <div class="app-wrapper">
-      <h1>Hello World! ❤</h1>
+      <!-- Topbar -->
+      <div class="topbar">
+        <div class="container">
+          <div class="row">
+            <!-- Left topbar -->
+            <div class="col-12 col-md-6 d-none d-md-block">
+              <div class="left-topbar">
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a href="javascript:void(0)" class="nav-link">
+                      <i class="bi bi-envelope"></i> support@email.com
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Right topbar -->
+            <div class="col-12 col-md-6">
+              <div class="right-topbar">
+                <ul class="nav justify-content-md-end">
+                  <li class="nav-item dropdown me-auto me-md-0" aria-label="Language dropdown menu">
+                    <a href="javascript:void(0)" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                      <i class="fi fi-sa"></i> العربية
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a href="#" class="dropdown-item">
+                          <i class="fi fi-us"></i> English
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="dropdown-item">
+                          <i class="fi fi-sa"></i> العربية
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item nav-social-item">
+                    <a href="https://facebook.com/ahmedelsewailky" class="nav-link" target="_blank" data-bs-placement="bottom" data-bs-toggle="tooltip" title="facebook"
+                      rel="noopener">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item nav-social-item">
+                    <a href="https://github.com/ahmedelsewailky" class="nav-link" target="_blank" data-bs-placement="bottom" data-bs-toggle="tooltip" title="github"
+                      rel="noopener">
+                      <i class="bi bi-github"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item nav-social-item">
+                    <a href="https://twitter.com/elsewailky" class="nav-link" target="_blank" data-bs-placement="bottom" data-bs-toggle="tooltip" title="twitter"
+                      rel="noopener">
+                      <i class="bi bi-twitter"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ./Topbar -->
     </div>
   </div>
 
