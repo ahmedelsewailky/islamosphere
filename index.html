@@ -23,7 +23,7 @@
 
   <div id="app">
     <div class="app-wrapper">
-      <!-- Topbar -->
+      <!-- =================================================================  Topbar -->
       <div class="topbar">
         <div class="container">
           <div class="row">
@@ -32,13 +32,19 @@
               <div class="left-topbar">
                 <ul class="nav">
                   <li class="nav-item">
-                    <a href="javascript:void(0)" class="nav-link">
+                    <a href="javascript:void(0)" class="nav-link ps-md-0">
+                      <i class="bi bi-phone"></i> (+20) 123-456-89
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="javascript:void(0)" class="nav-link pe-md-0">
                       <i class="bi bi-envelope"></i> support@email.com
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
+
             <!-- Right topbar -->
             <div class="col-12 col-md-6">
               <div class="right-topbar">
@@ -85,6 +91,67 @@
         </div>
       </div>
       <!-- ./Topbar -->
+
+
+
+      <!-- =================================================================  Navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <i class="bi bi-book"></i> IslamosPhere
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mainmenu"
+            aria-controls="mainmenu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="mainmenu" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <a class="navbar-brand" href="index.html">
+                <i class="bi bi-book"></i> IslamosPhere
+              </a>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Courses
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <span class="visually-hidden">search</span>
+                    <i class="bi bi-search"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- ./Navbar -->
     </div>
   </div>
 
