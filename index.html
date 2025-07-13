@@ -33,12 +33,12 @@
                 <ul class="nav">
                   <li class="nav-item">
                     <a href="javascript:void(0)" class="nav-link ps-md-0">
-                      <i class="bi bi-phone"></i> (+20) 123-456-89
+                      <i class="bi bi-phone"></i> <span>Phone:</span> (+20) 123-456-89
                     </a>
                   </li>
                   <li class="nav-item">
                     <a href="javascript:void(0)" class="nav-link pe-md-0">
-                      <i class="bi bi-envelope"></i> support@email.com
+                      <i class="bi bi-envelope"></i> <span>Mail:</span> support@email.com
                     </a>
                   </li>
                 </ul>
@@ -89,10 +89,7 @@
             </div>
           </div>
         </div>
-      </div>
-      <!-- ./Topbar -->
-
-
+      </div><!-- ./Topbar -->
 
       <!-- =================================================================  Navbar -->
       <nav class="navbar navbar-expand-lg">
@@ -113,22 +110,26 @@
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav mb-2 mb-lg-0 w-100">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                     aria-expanded="false">
-                    Courses
+                    Our Courses
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a href="#" class="dropdown-item">Quran Memorization</a></li>
+                    <li><a href="#" class="dropdown-item">Tajweed Course</a></li>
+                    <li><a href="#" class="dropdown-item">Arabic Language Course</a></li>
+                    <li><a href="#" class="dropdown-item">General Arabic Course</a></li>
+                    <li><a href="#" class="dropdown-item">Conversation Course</a></li>
+                    <li><a href="#" class="dropdown-item">Islamic Studies</a></li>
+                    <li><a href="#" class="dropdown-item">Quran Recitation</a></li>
+                    <li><a href="#" class="dropdown-item">Ijazah program</a></li>
+                    <li><a href="#" class="dropdown-item">Advanced Islamic Classes</a></li>
+                    <li><a href="#" class="dropdown-item">Alimah program (Advanced islamic program)</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
@@ -137,21 +138,121 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Blog</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <span class="visually-hidden">search</span>
-                    <i class="bi bi-search"></i>
+                <li class="nav-item ms-auto d-none d-md-block">
+                  <a class="nav-link" href="#" data-bs-toggle="offcanvas" data-bs-target="#infoCanvas">
+                    <span class="visually-hidden">Menu</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <path fill="currentColor"
+                        d="M22 18.005c0 .55-.446.995-.995.995h-8.01a.995.995 0 0 1 0-1.99h8.01c.55 0 .995.445.995.995M22 12c0 .55-.446.995-.995.995H2.995a.995.995 0 1 1 0-1.99h18.01c.55 0 .995.446.995.995m-.995-5.01a.995.995 0 0 0 0-1.99H8.995a.995.995 0 1 0 0 1.99z" />
+                    </svg>
                   </a>
+                </li>
+                <li class="nav-item d-none d-md-block">
+                  <a href="#" class="btn btn-primary">Get A Quote</a>
                 </li>
               </ul>
             </div>
           </div>
         </div>
-      </nav>
-      <!-- ./Navbar -->
+      </nav><!-- ./Navbar -->
+
+      <!-- =================================================================  Hero Section -->
+      <div id="heroSectionSlider" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#heroSectionSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#heroSectionSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#heroSectionSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Offcanvas Info -->
+  <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="infoCanvas">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="infoCanvasLabel">Backdrop with scrolling</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <a href="index.html" class="logo">
+        <i class="bi bi-book"></i> IslamosPhere
+      </a>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est reprehenderit maiores possimus natus, debitis
+        ducimus neque nemo, quod laboriosam qui, quia repellat iste autem. Laudantium minus necessitatibus non illo?
+        Earum et vel quasi neque nobis.
+      </p>
+
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <div class="d-flex">
+            <div class="flex-shrink-0">
+              <span><i class="bi bi-phone"></i></span>
+            </div>
+            <div class="flex-grow-1">
+              <p>Call to us:</p>
+              <h6>(+20) 01286103103</h6>
+              <h6>(+20) 01080720455</h6>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="d-flex">
+            <div class="flex-shrink-0">
+              <span><i class="bi bi-envelope"></i></span>
+            </div>
+            <div class="flex-grow-1">
+              <p>E-Mail Address:</p>
+              <h6>example@email.com</h6>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <div class="d-flex">
+            <div class="flex-shrink-0">
+              <span><i class="bi bi-map"></i></span>
+            </div>
+            <div class="flex-grow-1">
+              <p>Location:</p>
+              <h6>Egypt, Qalubia</h6>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
   </div>
 
